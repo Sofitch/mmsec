@@ -4,7 +4,7 @@ Three projects - respectively on watermarking, steganography, and fingerprints -
 
 ## Exercise 1
 
-The first project focuses on understanding the vulnerabilities of additive spread spectrum watermarks by conducting a concrete attack. We embed a watermark on an image using Code Division Multiple Access (CDMA), remove the watermark from the image using Principal Components Analysis (PCA), and then use Independent Component Analysis (ICA) to estimate the original watermark carriers. A more detailed description of the project can be found on **e1_watermarking.pdf**.
+The first project focuses on understanding the vulnerabilities of additive spread spectrum watermarks by conducting a concrete attack. We embed a watermark on an image using Code Division Multiple Access (CDMA), remove the watermark from the image using Principal Components Analysis (PCA), and then use Independent Component Analysis (ICA) to estimate the original watermark carriers. A more detailed description of the project can be found on [e1_watermarking.pdf](https://github.com/Sofitch/mmsec/blob/main/descriptions/e1_watermarking.pdf).
 
 To run:
 
@@ -15,7 +15,7 @@ To run:
 
 ## Exercise 2
 
-The second project aims to understand the strengths and limitations of LSB (Least Significant Bit) steganography. We experiment with naive embedding and Hamming-encoded embedding. For both methods, we embed a message in an image, and then decode that message to verify the embedding's effectiveness. We further experiment with using a χ2 (chi-square) test to detect the presence of LSB embedding on an image. A more detailed description of the project can be found on **e2_steganography.pdf**.
+The second project aims to understand the strengths and limitations of LSB (Least Significant Bit) steganography. We experiment with naive embedding and Hamming-encoded embedding. For both methods, we embed a message in an image, and then decode that message to verify the embedding's effectiveness. We further experiment with using a χ2 (chi-square) test to detect the presence of LSB embedding on an image. A more detailed description of the project can be found on [e2_steganography.pdf](https://github.com/Sofitch/mmsec/blob/main/descriptions/e2_steganography.pdf).
 
 To run:
 
@@ -26,7 +26,7 @@ To run:
 
 ## Exercise 3
 
-This project expermients with PRNU fingerprinting on a subset of the *Dresden Image* database, aiming to evaluate the effectiveness of PRNU fingerprinting in device identification. A more detailed description of the project can be found on **e3_prnu_fingerprint.pdf**.
+This project expermients with PRNU fingerprinting on a subset of the *Dresden Image* database, aiming to evaluate the effectiveness of PRNU fingerprinting in device identification. A more detailed description of the project can be found on [e3_prnu_fingerprint.pdf](https://github.com/Sofitch/mmsec/blob/main/descriptions/e3_prnu_fingerprint.pdf). This projects requires the Dresden Image database to run.
 
 To run:
 
